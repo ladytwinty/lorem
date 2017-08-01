@@ -1,0 +1,45 @@
+.header
+	min-height: 800px
+	width: 100%
+	background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%)
+	background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%)
+	background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%)
+.header-nav
+	padding: 28px 0
+	width: 100%
+	height: 80px
+	background-color: transparent
+	box-sizing: border-box
+	display: flex
+	justify-content: space-between
+	align-items: center
+	.logo
+		display: block
+	.main-menu
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		ul, li
+			list-style-type: none
+			padding: 0
+			margin: 0
+		ul
+			display: flex
+			//justify-content: flex-end
+			//flex-grow: 1
+			li
+				margin-right: 60px
+				a
+					color: #fff
+					text-transform: uppercase
+					text-decoration: none
+					font-family: Myriad Pro Regular, sans-serif
+					font-weight: 500
+					transition: all .3s linear
+					padding-bottom: 12px
+				&:hover
+					a
+						color: #fce38a
+						border-bottom: 3px solid #fce38a
+	.search
+		align-content: flex-end
